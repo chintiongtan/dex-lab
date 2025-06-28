@@ -1,29 +1,19 @@
----
-theme: default
-transition: fade-out
----
-
-# Solving Deployment Friction with Multi-Zone Micro-Frontends
+## Solving Deployment Friction with Multi-Zone Micro-Frontends
 
 A simple and scalable approach with Next.js
 
 ---
-transition: slide-up
----
 
-# Today's Deployment Flow
+## Today's Deployment Flow
 
-<ul>
-  <li v-click>Weekly scheduled release</li>
-  <li v-click>Code from multiple teams</li>
-  <li v-click>Shared ownership over a single monolith</li>
-</ul>
+
+* Weekly scheduled release
+* Code from multiple teams
+* Shared ownership over a single monolith
 
 ---
-transition: slide-up
----
 
-# What's Not Working Well?
+## What's Not Working Well?
 
 * ❗ **Coordination overhead**
   * *Teams blocked by each other*
@@ -38,10 +28,8 @@ transition: slide-up
   * *Bugs shared across teams*
 
 ---
-transition: slide-up
----
 
-# What Good Looks Like?
+## What Good Looks Like?
 
 * ✅ Teams deploy independently
 * ✅ Isolated failures
@@ -49,36 +37,27 @@ transition: slide-up
 * ✅ Clear ownership and responsibility
 
 ---
-transition: slide-up
----
 
-# What Are Micro-Frontends?
+## What Are Micro-Frontends?
 
 * A frontend architecture pattern where each team owns a portion of the UI
 * Inspired by microservices but for the browser
 * Teams can build, test and deploy independently
 
 ---
-transition: slide-up
----
 
-# Multi-Zone Support in Next.js
+## Multi-Zone Support in Next.js
 
 * Each zone = a separate Next.js app
 * Combined under a parent / root app via reverse proxy or rewrites
 
 ---
-layout: cover
-transition: slide-up
----
 
-# Demo
+## Demo
 
 ---
-transition: slide-up
----
 
-# How Multi-Zones Help
+## How Multi-Zones Help
 
 <table>
   <thead>
@@ -89,29 +68,27 @@ transition: slide-up
   </thead>
   <tbody>
     <tr>
-      <td v-click>🚨 Release bottlenecks</td>
-      <td v-click>✅ Each team deploys independently</td>
+      <td>🚨 Release bottlenecks</td>
+      <td>✅ Each team deploys independently</td>
     </tr>
     <tr>
-      <td v-click>🚨 Shared blast radius</td>
-      <td v-click>✅ Faults isolated to zones</td>
+      <td>🚨 Shared blast radius</td>
+      <td>✅ Faults isolated to zones</td>
     </tr>
     <tr>
-      <td v-click>🚨 Slow iteration</td>
-      <td v-click>✅ Faster feedback loops</td>
+      <td>🚨 Slow iteration</td>
+      <td>✅ Faster feedback loops</td>
     </tr>
     <tr>
-      <td v-click>🚨 Ownership confusion</td>
-      <td v-click>✅ Team owns their zone end-to-end</td>
+      <td>🚨 Ownership confusion</td>
+      <td>✅ Team owns their zone end-to-end</td>
     </tr>
   </tbody>
 </table>
 
 ---
-transition: slide-up
----
 
-# Trade-offs to be Aware of
+## Trade-offs to be Aware of
 
 <table>
   <thead>
@@ -149,8 +126,5 @@ transition: slide-up
 </table>
 
 ---
-layout: cover
-transition: slide-up
----
 
-# Let's Talk
+## FAQ
